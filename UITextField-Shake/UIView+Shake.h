@@ -20,6 +20,8 @@ typedef NS_ENUM(NSInteger, ShakeDirection) {
  * -----------------------------------------------------------------------------
  */
 
+- (void)shake;
+
 /** Shake the UITextField
  *
  * Shake the text field a given number of times

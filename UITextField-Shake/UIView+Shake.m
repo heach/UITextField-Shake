@@ -10,6 +10,10 @@
 
 @implementation UIView (Shake)
 
+- (void)shake {
+    [self shake:4 withDelta:5.0f andSpeed:0.05];
+}
+
 - (void)shake:(int)times withDelta:(CGFloat)delta
 {
     [self shake:times withDelta:delta completion:nil];
