@@ -21,7 +21,7 @@
 		65C825D218A67AB1004F55EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C825B418A67AB1004F55EC /* UIKit.framework */; };
 		65C825DA18A67AB1004F55EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65C825D818A67AB1004F55EC /* InfoPlist.strings */; };
 		65C825DC18A67AB1004F55EC /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C825DB18A67AB1004F55EC /* SampleTests.m */; };
-		65F28D9E18A6848700E6E276 /* UITextField+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F28D9D18A6848700E6E276 /* UITextField+Shake.m */; };
+		65F28D9E18A6848700E6E276 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F28D9D18A6848700E6E276 /* UIView+Shake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		65C825D718A67AB1004F55EC /* SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleTests-Info.plist"; sourceTree = "<group>"; };
 		65C825D918A67AB1004F55EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65C825DB18A67AB1004F55EC /* SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
-		65F28D9C18A6848700E6E276 /* UITextField+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Shake.h"; sourceTree = "<group>"; };
-		65F28D9D18A6848700E6E276 /* UITextField+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Shake.m"; sourceTree = "<group>"; };
+		65F28D9C18A6848700E6E276 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		65F28D9D18A6848700E6E276 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		65F28D9B18A6848700E6E276 /* UITextField-Shake */ = {
 			isa = PBXGroup;
 			children = (
-				65F28D9C18A6848700E6E276 /* UITextField+Shake.h */,
-				65F28D9D18A6848700E6E276 /* UITextField+Shake.m */,
+				65F28D9C18A6848700E6E276 /* UIView+Shake.h */,
+				65F28D9D18A6848700E6E276 /* UIView+Shake.m */,
 			);
 			name = "UITextField-Shake";
 			path = "../../UITextField-Shake";
@@ -264,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F28D9E18A6848700E6E276 /* UITextField+Shake.m in Sources */,
+				65F28D9E18A6848700E6E276 /* UIView+Shake.m in Sources */,
 				65C825C118A67AB1004F55EC /* AMAppDelegate.m in Sources */,
 				65C825C718A67AB1004F55EC /* AMViewController.m in Sources */,
 				65C825BD18A67AB1004F55EC /* main.m in Sources */,

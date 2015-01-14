@@ -7,7 +7,7 @@
 //
 
 #import "AMViewController.h"
-#import "UITextField+Shake.h"
+#import "UIView+Shake.h"
 
 @interface AMViewController () <UITextFieldDelegate>
 

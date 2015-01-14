@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Fancy Pixel. All rights reserved.
 //
 
-#import "UITextField+Shake.h"
+#import "UIView+Shake.h"
 
-@implementation UITextField (Shake)
+@implementation UIView (Shake)
 
 - (void)shake:(int)times withDelta:(CGFloat)delta
 {

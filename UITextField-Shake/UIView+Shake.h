@@ -13,7 +13,7 @@ typedef NS_ENUM(NSInteger, ShakeDirection) {
     ShakeDirectionVertical
 };
 
-@interface UITextField (Shake)
+@interface UIView (Shake)
 
 /**-----------------------------------------------------------------------------
  * @name UITextField+Shake
